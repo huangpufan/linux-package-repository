@@ -1,1 +1,1 @@
-cp ./* ~/bin/
+cp ./bin/* ~/bin/

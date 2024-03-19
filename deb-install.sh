@@ -1,5 +1,5 @@
 # 找到当前目录下所有的 .deb 文件并通过 dpkg 安装
-for deb in ./*.deb; do
+for deb in ./deb/*.deb; do
     if [[ -f "$deb" ]]; then
         echo "Installing $deb"
         sudo dpkg -i "$deb"
