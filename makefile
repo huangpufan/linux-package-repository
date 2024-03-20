@@ -1,0 +1,2 @@
+sync:
+	bash ./sync.sh
