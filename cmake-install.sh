@@ -17,7 +17,7 @@ is_cmake_version_installed() {
 }
 
 # Desired version of CMake
-required_version="3.28"
+required_version="3.28.1"
 
 # Check if CMake 3.28 is already installed
 if is_cmake_version_installed "$required_version"; then
